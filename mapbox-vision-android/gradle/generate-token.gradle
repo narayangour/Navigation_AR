@@ -4,7 +4,7 @@
 task accessToken {
     final TOKEN_FILE = "developer-config.xml"
     final TOKEN_DIR = "src/main/res/values"
-    final MAPBOX_ACCESS_TOKEN = "mapbox_access_token"
+    final MAPBOX_ACCESS_TOKEN = "sk.eyJ1IjoibmdvdXI5NiIsImEiOiJjazh6eGpiNHAwdzJyM2V0YW9rOTlxaDVtIn0.RQUI3c_1r-1M8JreL-gO_g"
 
     def tokenDir = new File("${projectDir}/${TOKEN_DIR}")
     if (!tokenDir.exists()) {
